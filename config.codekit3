@@ -17,6 +17,22 @@
       "oAP" : "\/_ignores\/autoprefixer-browser-string.txt",
       "oF" : 0
     },
+    "\/_ignores\/bboy.sublime-project" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_ignores\/bboy.sublime-project",
+      "oF" : 0
+    },
+    "\/_ignores\/bboy.sublime-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_ignores\/bboy.sublime-workspace",
+      "oF" : 0
+    },
     "\/_ignores\/codekit-icon.png" : {
       "ft" : 32768,
       "iS" : 492119,
@@ -36,22 +52,6 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/_ignores\/htaccess\/force-https.txt",
-      "oF" : 0
-    },
-    "\/_ignores\/zurb-f6-boilerplate.sublime-project" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_ignores\/zurb-f6-boilerplate.sublime-project",
-      "oF" : 0
-    },
-    "\/_ignores\/zurb-f6-boilerplate.sublime-workspace" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_ignores\/zurb-f6-boilerplate.sublime-workspace",
       "oF" : 0
     },
     "\/.editorconfig" : {
@@ -6522,12 +6522,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist",
-      "oF" : 0
-    },
     "\/gulpfile.babel.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -7123,8 +7117,8 @@
   },
   "projectAttributes" : {
     "creationDate" : 502296054,
-    "displayValue" : "zurb-f6-boilerplate",
-    "displayValueWasSetByUser" : 0,
+    "displayValue" : "bboy",
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/_ignores\/codekit-icon.png",
     "iconImageWasSetByUser" : 1
   },
