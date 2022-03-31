@@ -1,5 +1,42 @@
 .index#index {
 	.splash {
-		background: #fff url("/img/splash.jpg") center bottom/cover no-repeat;
+		background: #fff url('/img/splash.jpg') center bottom/cover no-repeat;
+
+		.prose-wrap {
+			height: 540px;
+			height: 100%;
+			position: relative;
+
+			&:before {
+				content: ' ';
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				opacity: .4;
+				background-image: url('/img/france-flag.svg');
+				background-repeat: no-repeat;
+				background-position: 105%;
+				background-size: auto 80%;
+			}
+
+			h1 {
+				padding-top: 280px;
+				color: #fff;
+				font-size: 200px;
+				transform: rotate(-21deg);
+
+				span {
+					margin-left: -440px;
+					margin-bottom: -100px;
+					display: block;
+					transform: rotate(17deg);
+					font-size: 110px;
+					color: #feb545;
+				}
+			}
+		}
 	}
 }

@@ -6563,6 +6563,29 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/img\/france-flag.png" : {
+      "ft" : 32768,
+      "iS" : 48059,
+      "oA" : 1,
+      "oAP" : "\/img\/france-flag.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/france-flag.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/img\/france-flag.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
     "\/img\/splash.jpg" : {
       "ft" : 16384,
       "iS" : 590797,
