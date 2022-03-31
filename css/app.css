@@ -7845,10 +7845,14 @@ a:not(.button) {
       opacity: .4;
       background-image: url("/img/france-flag.svg");
       background-repeat: no-repeat;
-      background-position: 105%;
+      background-position: 105% 0;
       background-size: auto 80%; }
+    .index#index .splash .prose-wrap .prose {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
     .index#index .splash .prose-wrap h1 {
-      padding-top: 280px;
       color: #fff;
       font-size: 200px;
       transform: rotate(-21deg); }
