@@ -7082,8 +7082,17 @@ ol.list-upper-roman {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
 
+@font-face {
+  font-family: 'Whoa';
+  src: url("/fonts/whoa/whoa.woff2") format("woff2"), url("/fonts/whoa/whoa.woff") format("woff"), url("/fonts/whoa/whoa.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400; }
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important; }
+
+.ff-whoa {
+  font-family: 'Whoa'; }
 
 .font-weight-100,
 .font-weight-ultralight {
@@ -7818,3 +7827,6 @@ a:not(.button) {
 
 .min-width-25 {
   min-width: 25%; }
+
+.index#index .splash {
+  background: #fff url("/img/splash.jpg") center bottom/cover no-repeat; }
