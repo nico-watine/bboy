@@ -2,6 +2,9 @@
 	.splash {
 		background: #fff url('/img/splash.jpg') center bottom/cover no-repeat;
 		position: relative;
+		height: 95vh;
+		min-height: 700px;
+		overflow: hidden;
 
 		&:before {
 			content: ' ';

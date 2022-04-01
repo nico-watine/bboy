@@ -7830,7 +7830,10 @@ a:not(.button) {
 
 .index#index .splash {
   background: #fff url("/img/splash.jpg") center bottom/cover no-repeat;
-  position: relative; }
+  position: relative;
+  height: 95vh;
+  min-height: 700px;
+  overflow: hidden; }
   .index#index .splash:before {
     content: ' ';
     display: block;
