@@ -7829,29 +7829,26 @@ a:not(.button) {
   min-width: 25%; }
 
 .index#index .splash {
-  background: #fff url("/img/splash.jpg") center bottom/cover no-repeat; }
-  .index#index .splash .prose-wrap {
-    height: 540px;
+  background: #fff url("/img/splash.jpg") center bottom/cover no-repeat;
+  position: relative; }
+  .index#index .splash:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
     height: 100%;
-    position: relative; }
-    .index#index .splash .prose-wrap:before {
-      content: ' ';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      opacity: .4;
-      background-image: url("/img/france-flag.svg");
-      background-repeat: no-repeat;
-      background-position: 105% 0;
-      background-size: auto 80%; }
-    .index#index .splash .prose-wrap .prose {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
+    opacity: .3;
+    background-image: url("/img/french-flag.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .index#index .splash .prose-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
     .index#index .splash .prose-wrap h1 {
       color: #fff;
       font-size: 200px;
