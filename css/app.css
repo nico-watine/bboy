@@ -7829,7 +7829,7 @@ a:not(.button) {
   min-width: 25%; }
 
 .index#index .splash {
-  background: #fff url("/img/splash.jpg") center bottom/cover no-repeat;
+  background: #fff url("/img/lilou-splash.jpg") center bottom/cover no-repeat;
   position: relative;
   height: 95vh;
   min-height: 700px;

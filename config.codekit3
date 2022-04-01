@@ -6586,12 +6586,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/splash.jpg" : {
+    "\/img\/lilou-bio.jpg" : {
+      "ft" : 16384,
+      "iS" : 121769,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/img\/lilou-bio.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/lilou-splash.jpg" : {
       "ft" : 16384,
       "iS" : 590797,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/img\/splash.jpg",
+      "oAP" : "\/img\/lilou-splash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

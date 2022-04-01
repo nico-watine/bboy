@@ -15,3 +15,16 @@ body-class: index
 		</div>
 	</div>
 </section>
+
+<section class="bio-section" style="padding-top: 140px; padding-bottom: 140px;">
+	<div class="grid-container">
+		<div class="grid-x grid-margin-x">
+			<div class="cell large-5">
+				<img style="border-radius: 20px;" src="/img/lilou-bio.jpg" alt="Lilou" title="Lilou">
+			</div>
+			<div class="cell large-7">
+
+			</div>
+		</div>
+	</div>
+</section>
