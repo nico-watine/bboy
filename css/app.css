@@ -5,6 +5,7 @@
  * https://get.foundation
  * Licensed under MIT Open Source
  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media print, screen and (min-width: 40em) {
   .reveal.large, .reveal.small, .reveal.tiny, .reveal {
     right: auto;
@@ -183,8 +184,8 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   line-height: 1.5;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
@@ -257,7 +258,7 @@ textarea {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.5;
   color: #0a0a0a;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -319,7 +320,7 @@ label {
   display: block;
   margin: 0;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.8;
   color: #0a0a0a; }
   label.middle {
@@ -414,7 +415,7 @@ select {
   background-color: #fefefe;
   font-family: inherit;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.5;
   color: #0a0a0a;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32" height="24" viewBox="0 0 32 24"><polygon points="0,0 32,0 16,24" style="fill: rgb%28138, 138, 138%29"></polygon></svg>');
@@ -512,9 +513,9 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   color: inherit;
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,
@@ -650,7 +651,7 @@ kbd {
 .subheader {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.4;
   color: #8a8a8a; }
 
@@ -679,7 +680,7 @@ ul.no-bullet, ol.no-bullet {
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 500;
   color: #0a0a0a;
   display: inline;
   max-width: 100%;
@@ -690,7 +691,7 @@ ul.no-bullet, ol.no-bullet {
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 500;
   color: #0a0a0a;
   display: block;
   overflow: auto;
@@ -6024,7 +6025,7 @@ html.is-reveal-open {
   letter-spacing: 0.25rem; }
 
 .font-normal {
-  font-weight: normal; }
+  font-weight: 500; }
 
 .font-bold {
   font-weight: bold; }
@@ -6036,7 +6037,7 @@ html.is-reveal-open {
   .medium-font-wide {
     letter-spacing: 0.25rem; }
   .medium-font-normal {
-    font-weight: normal; }
+    font-weight: 500; }
   .medium-font-bold {
     font-weight: bold; }
   .medium-font-italic {
@@ -6046,7 +6047,7 @@ html.is-reveal-open {
   .large-font-wide {
     letter-spacing: 0.25rem; }
   .large-font-normal {
-    font-weight: normal; }
+    font-weight: 500; }
   .large-font-bold {
     font-weight: bold; }
   .large-font-italic {
@@ -7093,6 +7094,9 @@ ol.list-upper-roman {
 
 .ff-whoa {
   font-family: 'Whoa'; }
+
+.ff-mulish {
+  font-family: 'Mulish', sans-serif; }
 
 .font-weight-100,
 .font-weight-ultralight {
