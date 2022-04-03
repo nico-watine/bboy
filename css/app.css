@@ -7867,3 +7867,20 @@ a:not(.button) {
         transform: rotate(17deg);
         font-size: 110px;
         color: #feb545; }
+
+.index#index .bio-section {
+  position: relative; }
+  .index#index .bio-section:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    background-image: url("/img/france-flag.svg");
+    background-repeat: no-repeat;
+    background-position: 105% bottom;
+    background-size: auto;
+    z-index: -1; }
