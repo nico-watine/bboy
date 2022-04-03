@@ -26,7 +26,7 @@ body-class: index
 				<h2 class="ff-whoa mb-40" style="font-size: 70px;color: #323232;">about lilou</h2>
 				<h3 class="font-weight-bold text-uppercase mb-20" style="font-size: 26px;">Ali Ramdani, better known by his stage name Lilou, is a French b-boy breakdancer.</h3>
 				<p class="lead mb-40">He is part of the French crew Pockemon Crew and the all-star team LEGION X. He has had a black belt in Kung Fu since he was sixteen. He practices Islam and can speak Algerian-Arabic, French and English. He is one of only three competitors to have won the Red Bull BC One twice.</p>
-				<img src="/img/signature.png" alt="">
+				<img src="/img/signature.png" alt="Lilou Signature" title="Lilou Signature">
 			</div>
 		</div>
 	</div>
